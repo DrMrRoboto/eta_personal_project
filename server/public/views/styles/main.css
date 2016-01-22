@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Paytone+One);
+@import url(https://fonts.googleapis.com/css?family=Special+Elite);
+
+body {
+    font-family: 'Special Elite', "Times New Roman", Times, serif;
+    background-color: beige;
+
+}
+
+/*#loginBody {*/
+    /*border: 2px solid;*/
+/*}*/
+
+h1{
+    font-family: 'Payton One', "Arial Black", Gadget, sans-serif;
+    font-size: 95px;
+    letter-spacing: .75px;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Payton One', "Arial Black", Gadget, sans-serif;
+    font-size: 56px;
+    letter-spacing: .75px;
+    display: block;
+    width: 80%;
+    margin: 0 auto 0;
+    text-align: center;
+}
+.border{
+    border-bottom: 4px solid black;
+    margin:0 auto;
+    display:block;
+    width:77%;
+}
+
+/*Form*/
+
+.formDiv{
+    margin: 20px 0;
+}
+
+.loginPageInput {
+    font-size: 23px;
+    width: 200px;
+}
+
+#loginDiv {
+    display: block;
+    width: 32%;
+    margin: 47px auto;
+}
+
+#createUserDiv {
+    display: block;
+    width: 80%;
+    margin: 61px auto;
+    text-align: center;
+}
+
+.loginFormText {
+    text-align: right;
+    margin-right: 15px;
+    font-size: 23px;
+}
+
+button{
+    font-family: 'Payton One', "Arial Black", Gadget, sans-serif;
+    margin: 0 auto;
+    display: block;
+    width: 39%;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    border: none;
+    letter-spacing: 1px;
+}
+a {
+    text-decoration: none;
+}
+

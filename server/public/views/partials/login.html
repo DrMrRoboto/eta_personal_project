@@ -1,0 +1,68 @@
+<!doctype html>
+
+    <html>
+        <head lang="en" ng-app="app">
+            <!--<base href="/">-->
+            <script src="/vendor/angular/angular.min.js" type="text/javascript"></script>
+            <script src="/vendor/angular-route/angular-route.min.js"></script>
+            <script src="/assets/scripts/app.min.js" type="text/javascript"></script>
+            <link rel="stylesheet" type="text/css" href="/views/styles/main.css">
+            <meta charset="UTF-8">
+            <title>Lunchocracy login page</title>
+        </head>
+
+        <body  ng-app="app" id="loginBody" ng-controller="IndexController">
+            <h1 id="loginHeader">LUNCHOCRACY</h1>
+            <div class="border"></div>
+
+
+            <div id="loginDiv">
+                <!--<div id="loginDiv" ng-controller="logInController">-->
+                <h2>SIGN IN</h2>
+
+                <form id="loginUser">
+                    <div class="formDiv">
+                        <label class="loginFormText">User Email</label>
+                        <!--<input class="loginPageInput" type="text" placeholder="placeholder" name="eMail" ng-model="loginForm.email">-->
+                        <input class="loginPageInput" type="text" placeholder="Email" name="eMail">
+
+                    </div>
+                    <div class="formDiv">
+                        <label class="loginFormText">User Password</label>
+                        <input class="loginPageInput" type="text" placeholder="Password" name="password">
+                        <!--<input class="loginPageInput" type="text" placeholder="placeholder" name="password" ng-model="loginForm.password">-->
+
+                    </div>
+                </form>
+                <a href="/groups"  class="groupsLink"><button type="submit" form="loginUser" >Log in</button></a>
+            </div>
+            <div id="createUserDiv">
+                <!--<div id="createUserDiv" ng-controller="createAccountController">-->
+                <h2>NEW USER?</h2>
+
+                <form id="createUser">
+                    <div class="formDiv">
+                        <label class="loginFormText">Create User</label>
+                        <input class="loginPageInput" type="text" placeholder="Email"  >
+                        <!--<input class="loginPageInput" type="text" placeholder="placeholder" name="newEmail" ng-model="createAccount.email">-->
+
+                    </div>
+                    <div class="formDiv">
+                        <label class="loginFormText">Create User Password</label>
+                        <input class="loginPageInput" type="text" placeholder="Password"  name="newUserPassword">
+                        <!--<input class="loginPageInput" type="text" placeholder="placeholder" name="newUserPassword" ng-model="createAccount.password">-->
+
+                    </div>
+                    <div class="formDiv">
+                        <label class="loginFormText">Verify User Password</label>
+                        <input class="loginPageInput" type="text" placeholder="Re-enter Password"  name="newUserConfirmPassword">
+                        <!--<input class="loginPageInput" type="text" placeholder="placeholder" name="newUserConfirmPassword" ng-model="createAccount.confirmPassword">-->
+
+                    </div>
+                </form>
+                <a href="/groups" class="groupsLink"><button type="submit" form="createUser">Sign Up</button></a>
+            </div>
+        </body>
+
+
+</html>

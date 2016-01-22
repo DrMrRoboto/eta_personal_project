@@ -1,0 +1,10 @@
+{
+  "groups": {
+    "Diner Dudes": [
+      {"name": "Karl", "email": "karl@email.com"},
+      {"name": "Jim", "email": "jim@email.com"},
+      {"name": "Pete", "email": "pete@email.com"}
+    ]
+
+  }
+}
