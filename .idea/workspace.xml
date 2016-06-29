@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1000cad8-9999-425b-a8fa-59781d47b622" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/public/views/partials/votePage.html" afterPath="$PROJECT_DIR$/server/public/views/partials/votePage.html" />
     </list>
     <ignored path="personal_project_walking_skeleton.iws" />
     <ignored path=".idea/workspace.xml" />
